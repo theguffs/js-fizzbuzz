@@ -27,7 +27,7 @@ RISPOSTA
 Se un elemento A dividendolo per un elemento B non da come risultato un numero con la virgola significa che sono divisibili altrimenti no.
 Sapendo questo posso usare:
 
-if (A % B === 0) { // A diviso B da resto 0
+if (A % B == 0) { // A diviso B da resto 0
         console.log( B è divisibile); // se daresto 0 è divisibile
     } 
     else {
